@@ -3,7 +3,25 @@ step -1 git clone with url of repostary where you want
 step -2 navigate to folder in terminal and type npm install
 step -3 type npm start so your backend is ready run into your local system
 step -4 make react project
-step -5 make form and login (method:post) using below any email and password 
+step -5 make form and login (method:post) using below any email and password
+[{
+    id: 1,
+    name: "mukesh",
+    email: "mpprajapat459@gmail.com",
+    password: "aty@9898",
+  },
+  {
+    id: 2,
+    name: "rajesh",
+    email: "npprajapat459@gmail.com",
+    password: "aty@9090",
+  },
+  {
+    id: 3,
+    name: "harish",
+    email: "oklove459@gmail.com",
+    password: "aty@1004",
+  } ]
 api for above step : "http://localhost:3000/login"
 step -6 from above step you will get token using that token you need to again call an api 
 :"http://localhost:3000/data" {note here token should append to header with Authorization key}
